@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 9px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #311458; /* Track color */
+    border-radius: 0px; /* Border radius for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #5D2CAB; /* Thumb color */
+    border-radius: 10px; /* Border radius for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Thumb color on hover */
+  }
